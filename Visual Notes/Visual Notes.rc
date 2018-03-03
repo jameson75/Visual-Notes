@@ -1,0 +1,859 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "newres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""newres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Visual Notes.rc2""  // non-Microsoft eMbedded Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""wceres.rc""         // WCE-specific components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Cmdbar.bmp"
+IDB_BEEPER1             BITMAP  DISCARDABLE     "Bitmaps\\beeper.bmp"
+IDB_BEEPER2             BITMAP  DISCARDABLE     "Bitmaps\\beeper2.bmp"
+IDB_CAMERA1             BITMAP  DISCARDABLE     "Bitmaps\\camera1.bmp"
+IDB_CAMERA2             BITMAP  DISCARDABLE     "Bitmaps\\camera2.bmp"
+IDB_CELLPHONE           BITMAP  DISCARDABLE     "Bitmaps\\pocketpc.bmp"
+IDB_CLIENT1             BITMAP  DISCARDABLE     "Bitmaps\\client1.bmp"
+IDB_CLIENT2             BITMAP  DISCARDABLE     "Bitmaps\\client2.bmp"
+IDB_CLIENT3             BITMAP  DISCARDABLE     "Bitmaps\\client.bmp"
+IDB_CLIENT4             BITMAP  DISCARDABLE     "Bitmaps\\client3.bmp"
+IDB_CLIENTMAC           BITMAP  DISCARDABLE     "Bitmaps\\mac terminal.bmp"
+IDB_DATABASE            BITMAP  DISCARDABLE     "Bitmaps\\database.bmp"
+IDB_DISH1               BITMAP  DISCARDABLE     "Bitmaps\\dish1.bmp"
+IDB_FAX1                BITMAP  DISCARDABLE     "Bitmaps\\fax.bmp"
+IDB_FAX3                BITMAP  DISCARDABLE     "Bitmaps\\Faxmachine.bmp"
+IDB_HUB1                BITMAP  DISCARDABLE     "Bitmaps\\hub3.bmp"
+IDB_HUB2                BITMAP  DISCARDABLE     "Bitmaps\\hub2.bmp"
+IDB_MODEM               BITMAP  DISCARDABLE     "Bitmaps\\telephone.bmp"
+IDB_PALM1               BITMAP  DISCARDABLE     "Bitmaps\\palm.bmp"
+IDB_PALM2               BITMAP  DISCARDABLE     "Bitmaps\\palm2.bmp"
+IDB_PALM3               BITMAP  DISCARDABLE     "Bitmaps\\palm3.bmp"
+IDB_POCKETPC1           BITMAP  DISCARDABLE     "Bitmaps\\casio pocket pc.bmp"
+IDB_POCKETPC2           BITMAP  DISCARDABLE     "Bitmaps\\real pocketpc.bmp"
+IDB_PRINTER1            BITMAP  DISCARDABLE     "Bitmaps\\Xerox2.bmp"
+IDB_PRINTER2            BITMAP  DISCARDABLE     "Bitmaps\\printer4.bmp"
+IDB_PRINTER3            BITMAP  DISCARDABLE     "Bitmaps\\printer.bmp"
+IDB_PRINTER4            BITMAP  DISCARDABLE     "Bitmaps\\printer2.bmp"
+IDB_PRINTER5            BITMAP  DISCARDABLE     "Bitmaps\\printer3.bmp"
+IDB_SERVER1             BITMAP  DISCARDABLE     "Bitmaps\\server02.bmp"
+IDB_SATELLITE           BITMAP  DISCARDABLE     "Bitmaps\\satellite.bmp"
+IDB_SERVER2             BITMAP  DISCARDABLE     "Bitmaps\\server03.bmp"
+IDB_THINKPAD1           BITMAP  DISCARDABLE     "Bitmaps\\thinkpad2.bmp"
+IDB_THINKPAD2           BITMAP  DISCARDABLE     "Bitmaps\\thinkpad3.bmp"
+IDB_THINKPAD3           BITMAP  DISCARDABLE     "Bitmaps\\notebook.bmp"
+IDR_TOOLBAR_ALIGNMENT   BITMAP  DISCARDABLE     "bitmaps\\toolbar1.bmp"
+IDR_TOOLBAR_EDGESET1    BITMAP  DISCARDABLE     "res\\bmp00003.bmp"
+IDR_TOOLBAR_FLOWCHART   BITMAP  DISCARDABLE     "res\\toolbar1.bmp"
+IDR_TOOLBAR_GENERAL     BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDR_TOOLBAR_GENERAL2    BITMAP  DISCARDABLE     "res\\bmp00002.bmp"
+IDR_TOOLBAR_NET1        BITMAP  DISCARDABLE     "res\\bmp00005.bmp"
+IDR_TOOLBAR_NET2        BITMAP  DISCARDABLE     "res\\bmp00006.bmp"
+IDR_TOOLBAR_SHOWHIDE    BITMAP  DISCARDABLE     "bitmaps\\bmp00001.bmp"
+IDR_TOOLBAR_SHOWHIDETOOLS BITMAP  DISCARDABLE     "res\\toolbar2.bmp"
+IDR_TOOLBAR_UML         BITMAP  DISCARDABLE     "res\\bmp00004.bmp"
+IDB_LOGO                BITMAP  DISCARDABLE     "bitmaps\\bitmap1.bmp"
+IDB_IBMMAINFRAME        BITMAP  DISCARDABLE     "Bitmaps\\mainframe.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+END
+
+IDR_TOOLBAR_ALIGNMENT TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_TOOLBTN_ALIGN_TOP
+    BUTTON      ID_TOOLBTN_ALIGN_LEFT
+    BUTTON      ID_TOOBTN_ALIGN_RIGHT
+    BUTTON      ID_TOOLBTN_ALIGN_BOTTOM
+    BUTTON      ID_TOOLBTN_ALIGN_SIZE
+    BUTTON      ID_TOOLBTN_ALIGNCENTER
+END
+
+IDR_TOOLBAR_EDGESET1 TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_TOOLBTN_BASICEDGE
+    BUTTON      ID_TOOLBTN_DEPBASICEDGE
+    BUTTON      ID_TOOLBTN_CMPLXEDGE
+END
+
+IDR_TOOLBAR_FLOWCHART TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_TOOLBTN_CIRCLE
+    BUTTON      ID_TOOLBTN_RECTANGLE
+    BUTTON      ID_TOOLBTN_DIAMOND
+    BUTTON      ID_TOOLBTN_SHEAR
+    BUTTON      ID_TOOLBTN_GENERALIZE
+    BUTTON      ID_TOOLBTN_TAGA
+    BUTTON      ID_TOOLBTN_TAGB
+END
+
+IDR_TOOLBAR_GENERAL TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_TOOLBTN_CREATE
+    BUTTON      ID_TOOLBTN_EDGE
+    BUTTON      ID_TOOLBTN_TEXT
+    BUTTON      ID_TOOLBTN_TRACK
+    BUTTON      ID_TOOLBTN_SELECT
+    BUTTON      ID_TOOLBTN_LINK
+    BUTTON      ID_TOOLBTN_DELETE
+    BUTTON      ID_TOOLBTN_UNDO
+    BUTTON      ID_TOOLBTN_REDO
+    BUTTON      ID_TOOLBTN_PROPERTIES
+END
+
+IDR_TOOLBAR_GENERAL2 TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_TOOLBTN_HELP
+END
+
+IDR_TOOLBAR_NET1 TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_TOOLBTN_NETCLIENT
+    BUTTON      ID_TOOLBTN_NETSERVER
+    BUTTON      ID_TOOLBTN_NETDATABASE
+    BUTTON      ID_TOOLBTN_NETCLOUD
+    BUTTON      ID_TOOLBTN_NETPRINTER
+    BUTTON      ID_TOOLBTN_NETHUB
+    BUTTON      ID_TOOLBTN_NETMAINFRAME
+    BUTTON      ID_TOOLBTN_NETRING
+END
+
+IDR_TOOLBAR_NET2 TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_TOOLBTN_NET2SATELLITE
+    BUTTON      ID_TOOLBTN_NET2DISH
+    BUTTON      ID_TOOLBTN_NET2CELLPHONE
+    BUTTON      ID_TOOLBTN_NET2PDA
+    BUTTON      ID_TOOLBTN_NET2THINKPAD
+    BUTTON      ID_TOOLBTN_NET2CAMERA
+    BUTTON      ID_TOOLBTN_NET2FAX
+    BUTTON      ID_TOOLBTN_NET2WIREPHONE
+END
+
+IDR_TOOLBAR_SHOWHIDE TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_TOOLBTN_SHOW_HIDDEN
+    BUTTON      ID_TOOLBTN_HIDE_SELECTED
+END
+
+IDR_TOOLBAR_SHOWHIDETOOLS TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_TOOLBTN_SHOWHIDETOOLS
+END
+
+IDR_TOOLBAR_UML TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_TOOLBTN_UMLACTOR
+    BUTTON      ID_TOOLBTN_UMLNOTE
+    BUTTON      ID_TOOLBTN_UMLCOMPONENT
+    BUTTON      ID_TOOLBTN_UMLPACKAGE
+    BUTTON      ID_TOOLBTN_UMLCLASS
+    BUTTON      ID_TOOLBTN_UMLCASE
+    BUTTON      ID_TOOLBTN_DEPLOYMENT
+    BUTTON      ID_TOOLBTN_ROUNDRECT
+    BUTTON      ID_TOOLBTN_CAPSULE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menubar
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "Tools"
+    BEGIN
+        MENUITEM "Save As...",                  ID_FILE_SAVE_AS
+        MENUITEM "Export...",                   ID_TOOLS_EXPORT
+        MENUITEM SEPARATOR
+        MENUITEM "About",                       ID_APP_ABOUT
+        MENUITEM SEPARATOR
+        MENUITEM "Settings",                    ID_TOOLS_SETTINGS
+        MENUITEM "Diagram",                     ID_TOOLS_DIAGRAM
+    END
+END
+
+IDM_DOCLIST MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "Tools"
+    BEGIN
+        MENUITEM "About Visual Notes...",       ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Data
+//
+
+IDR_MAINFRAME SHMENUBAR MOVEABLE PURE 
+BEGIN
+    IDR_MAINFRAME, 1,
+    I_IMAGENONE, IDR_MAIN_TOOL, TBSTATE_ENABLED, 
+    TBSTYLE_DROPDOWN | TBSTYLE_AUTOSIZE, IDS_TOOL, 0, 0,
+END
+
+IDM_DOCLIST SHMENUBAR MOVEABLE PURE 
+BEGIN
+    IDM_DOCLIST, 1,
+    I_IMAGENONE, IDR_DOC_TOOL, TBSTATE_ENABLED, 
+    TBSTYLE_DROPDOWN | TBSTYLE_AUTOSIZE, IDS_TOOL, 0, 0,
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "Q",            ID_APP_EXIT,            VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 140, 57
+STYLE WS_POPUP | WS_CAPTION
+EXSTYLE 0x80000000L
+CAPTION "About Visual Notes"
+FONT 8, "System"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,21,20
+    LTEXT           "Visual Notes Version 1.0",IDC_STATIC,40,10,65,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2002",IDC_STATIC,40,25,65,8
+END
+
+IDD_ABOUTBOX1 DIALOG DISCARDABLE  0, 0, 137, 116
+STYLE WS_POPUP | WS_CAPTION
+EXSTYLE 0x80000000L
+CAPTION "About Visual Notes"
+FONT 8, "System"
+BEGIN
+    LTEXT           "Visual Notes v1.0",IDC_STATIC,3,4,65,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2001 - 2002",IDC_STATIC,4,78,93,9
+    EDITTEXT        IDC_EDIT_USERNAME,3,40,131,15,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Licensed To:",IDC_STATIC,4,31,41,8
+    LTEXT           "Invisible Labs (tm)",IDC_STATIC,3,15,59,8
+    ICON            IDR_MAINFRAME,IDC_STATIC,73,4,21,20
+    EDITTEXT        IDC_EDIT_AUTHCODE,3,59,131,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+END
+
+IDD_APPSETTINGS DIALOG DISCARDABLE  0, 0, 135, 154
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Application Settings"
+FONT 8, "System"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,91,133,37,14
+    CONTROL         "Remove children upon deletion",IDC_CHECK_REMOVECHILDREN,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,10,111,10
+    CONTROL         "Allow streching on new bit maps",
+                    IDC_CHECK_ALLOWSTRECHING,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,20,118,10
+    CONTROL         "Unlink on circular dependency",IDC_CHECK_UNLINKONCD,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,31,122,10
+    EDITTEXT        IDC_EDIT_CANVASX,67,78,30,14,ES_AUTOHSCROLL
+    LTEXT           "X:",IDC_STATIC,56,83,10,10
+    EDITTEXT        IDC_EDIT_CANVASY,21,78,30,14,ES_AUTOHSCROLL
+    LTEXT           "Y:",IDC_STATIC,11,83,10,10
+    GROUPBOX        "Canvas Size",IDC_STATIC,3,67,130,29
+    PUSHBUTTON      "Load Default",IDC_BUTTON_LOADDEFAULT,4,133,66,14
+    CONTROL         "Save Settings",IDC_CHECK_SAVESETTINGS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,5,120,60,10
+    CONTROL         "Auto delete embedded orphans",IDC_CHECK_AUTOREMOVELINK,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,42,117,10
+    COMBOBOX        IDC_COMBO_TREEDIR,57,101,38,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Tree Direction:",IDC_STATIC,5,104,48,8
+    CONTROL         "Direct Edge Axis Aligned",IDC_CHECK_DIRECTEDGEAA,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,53,93,10
+    GROUPBOX        "Default Behavior",IDC_STATIC,2,0,131,66
+END
+
+IDD_BMSYMBOLPROPERTY DIALOG DISCARDABLE  0, 0, 132, 154
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Bitmap Symbol Properties"
+FONT 8, "System"
+BEGIN
+    PUSHBUTTON      "",IDC_BMPBUTTON_CURRENT,97,14,26,24
+    LISTBOX         IDC_LIST_AVAILABLEBMPS,5,16,79,57,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Available Bitmaps",IDC_STATIC,7,7,56,8
+    LTEXT           "Current:",IDC_STATIC,97,4,28,8
+    PUSHBUTTON      "",IDC_BMPBUTTON_PREVIEW,97,49,27,24
+    LTEXT           "Preview:",IDC_STATIC,97,41,29,8
+    CONTROL         "Make Current",IDC_CHECK_MAKECURRENT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,114,59,10
+    PUSHBUTTON      "Restore Default",IDC_BUTTON_RESTOREDEFAULT,6,127,57,14
+    PUSHBUTTON      "Cancel",IDCANCEL,90,126,40,14
+    CONTROL         "Allow Streching",IDC_CHECK_ALLOWSTRECHING,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,82,65,10
+END
+
+IDD_COLORPICKER DIALOG DISCARDABLE  0, 0, 135, 154
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Choose Color"
+FONT 8, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT_RED,38,118,26,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_GREEN,70,118,26,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_BLUE,101,118,26,14,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "",IDC_BUTTON_CLRPICK,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    7,113,25,20
+    LTEXT           "R:",IDC_STATIC,41,109,10,8
+    LTEXT           "G:",IDC_STATIC,72,109,10,8
+    LTEXT           "B:",IDC_STATIC,105,109,10,8
+    PUSHBUTTON      "",IDC_CLRBUTTON01,6,1,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON02,24,1,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON03,42,1,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON04,60,1,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON06,95,1,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON07,112,1,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON08,5,17,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON05,77,1,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON09,23,17,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON10,41,17,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON11,59,17,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON12,77,17,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON13,95,17,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON14,113,17,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON15,5,33,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON16,23,33,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON17,41,33,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON18,59,33,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON19,77,33,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON20,95,33,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON21,113,33,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON22,5,48,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON23,23,48,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON24,41,48,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON25,59,48,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON26,77,48,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON27,95,48,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON28,113,48,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON29,5,64,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON30,23,64,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON31,41,64,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON32,59,64,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON33,77,64,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON34,95,64,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON35,113,64,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON36,5,80,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON37,23,80,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON38,41,80,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON39,59,80,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON40,77,80,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON41,95,80,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON42,113,80,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON43,5,96,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON44,23,96,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON45,41,96,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON46,59,96,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON47,77,96,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON48,95,96,15,13
+    PUSHBUTTON      "",IDC_CLRBUTTON49,113,96,15,13
+    PUSHBUTTON      "Cancel",IDCANCEL,83,136,45,16
+END
+
+IDD_DIAGRAMVIEW DIALOG DISCARDABLE  0, 0, 133, 150
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Diagram View"
+FONT 8, "System"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,92,134,39,14
+    PUSHBUTTON      "Delete",IDC_BUTTON_DELETE,92,57,40,14
+    PUSHBUTTON      "Visit",IDC_BUTTON_VISIT,92,75,40,14
+    EDITTEXT        IDC_EDIT_CURRENTDIAGRAM,4,11,83,13,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LISTBOX         IDC_LIST_DIAGRAMS,4,56,83,75,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Current Diagram:",IDC_STATIC,5,2,56,8
+    LTEXT           "All Diagrams:",IDC_STATIC,5,30,42,8
+    EDITTEXT        IDC_EDIT_SELECTEDDIAGRAM,5,40,82,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Rename",IDC_BUTTON_RENAME,91,40,40,14
+END
+
+IDD_DOCSETTINGS DIALOG DISCARDABLE  0, 0, 135, 154
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Document Settings"
+FONT 8, "System"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,87,134,41,14
+    COMBOBOX        IDC_COMBO_TREEDIR,5,12,49,46,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Tree Direction:",IDC_STATIC,5,2,48,8
+    CONTROL         "Lock Current Diagram.",IDC_CHECK_LOCKDIAGRAM,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,66,64,57,10
+    LISTBOX         IDC_LIST1,3,76,121,51,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,3,61,60,13,ES_AUTOHSCROLL
+END
+
+IDD_EDGEPROPERTY DIALOG DISCARDABLE  0, 0, 135, 154
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edge Properties"
+FONT 8, "System"
+BEGIN
+    COMBOBOX        IDC_COMBO_MASTERSYMBOL,48,15,63,51,CBS_DROPDOWN | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Slave:",IDC_STATIC,16,35,21,8
+    LTEXT           "Master:",IDC_STATIC,15,20,26,8
+    COMBOBOX        IDC_COMBO_SLAVESYMBOL,48,34,64,56,CBS_DROPDOWN | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Jonit Symbol",IDC_STATIC,10,5,110,46
+    LTEXT           "Joint: ",IDC_STATIC,13,78,21,8
+    LTEXT           "Edge:",IDC_STATIC,69,78,20,8
+    PUSHBUTTON      "",IDC_BUTTON_JOINTCOLOR,35,66,25,22
+    PUSHBUTTON      "",IDC_BUTTON_EDGECOLOR,91,65,26,23
+    GROUPBOX        "Edge Colors",IDC_STATIC_JOINTCOLORGROUPBOX,9,55,112,37
+    LTEXT           "EdgeWidth:",IDC_STATIC,12,99,38,8
+    COMBOBOX        IDC_COMBO_EDGEWIDTH,55,96,25,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Make Current",IDC_CHECK_MAKECURRENT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,118,59,10
+    PUSHBUTTON      "Restore Default",IDC_BUTTON_RESTOREDEFAULT,7,133,57,14
+    PUSHBUTTON      "Cancel",IDCANCEL,88,133,40,14
+    CONTROL         "Solid",IDC_RADIO_SOLID,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,91,96,31,10
+    CONTROL         "Dash",IDC_RADIO_DASH,"Button",BS_AUTORADIOBUTTON,91,109,
+                    32,10
+END
+
+IDD_NEWNOTE DIALOG DISCARDABLE  0, 0, 135, 154
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "New Note"
+FONT 8, "System"
+BEGIN
+    COMBOBOX        IDC_COMBO_LOOKIN,37,9,73,54,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Look In:",IDC_STATIC,6,12,27,8
+    LISTBOX         IDC_LIST_FILES,6,36,123,111,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_REGISTRATIONDLG DIALOG DISCARDABLE  0, 0, 135, 127
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Registration"
+FONT 8, "System"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,78,65,50,14
+    PUSHBUTTON      "Register",IDC_BUTTON_REGISTER,7,65,50,14
+    LTEXT           "Name/Title",IDC_STATIC,7,7,39,8
+    EDITTEXT        IDC_EDIT_NAME,7,16,75,14,ES_AUTOHSCROLL
+    LTEXT           "Registration Key",IDC_STATIC,7,36,54,8
+    EDITTEXT        IDC_EDIT_KEY,7,45,76,14,ES_AUTOHSCROLL
+    ICON            IDR_MAINFRAME,IDC_STATIC,101,14,21,20
+END
+
+IDD_SYMBOLPROPERTY DIALOG DISCARDABLE  0, 0, 135, 154
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Symbol Properties"
+FONT 8, "System"
+BEGIN
+    LTEXT           "Bkgnd:",IDC_STATIC,10,73,23,8
+    LTEXT           "Edge:",IDC_STATIC,11,51,20,8,WS_TABSTOP
+    LTEXT           "H:",IDC_STATIC,9,14,10,8
+    LTEXT           "W:",IDC_STATIC,49,13,10,8
+    EDITTEXT        IDC_EDIT_SYMBOLHEIGHT,19,11,28,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_SYMBOLWIDTH,59,11,29,15,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    GROUPBOX        "Metrics",IDC_STATIC,5,1,106,27
+    CONTROL         "Dashed",IDC_RADIO_DASHEDEDGE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,9,100,40,10
+    PUSHBUTTON      "",IDC_CLRBUTTON_EDGE,34,41,24,20
+    PUSHBUTTON      "",IDC_CLRBUTTON_BKGND,34,63,24,20
+    CONTROL         "Solid",IDC_RADIO_SOLIDEDGE,"Button",BS_AUTORADIOBUTTON,
+                    51,100,31,10
+    GROUPBOX        "Edge Type",IDC_STATIC,6,89,79,24,WS_GROUP
+    LTEXT           "Caption:",IDC_STATIC,69,52,28,8
+    LTEXT           "Secondary:",IDC_STATIC,65,73,38,8
+    PUSHBUTTON      "",IDC_CLRBUTTON_CAPTION,103,40,24,20
+    PUSHBUTTON      "",IDC_CLRBUTTON_SECONDARY,103,63,24,20
+    PUSHBUTTON      "Cancel",IDCANCEL,93,134,40,14
+    CONTROL         "Make Current",IDC_CHECK_MAKECURRENT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,8,121,59,10
+    PUSHBUTTON      "More >>",ID_BUTTON_MORE,93,116,40,14
+    PUSHBUTTON      "Restore Default",IDC_BUTTON_RESTOREDEFAULT,6,134,62,14
+    GROUPBOX        "Symbol Colors",IDC_STATIC_SYMBOLCOLORS,6,32,126,55
+    PUSHBUTTON      "Ext. Prop",IDC_BUTTON_EXTDDLG,93,99,40,14,WS_DISABLED
+END
+
+IDD_SYMBOLTEXT DIALOG DISCARDABLE  0, 0, 135, 154
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "`"
+FONT 8, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT_SYMBOLTEXT,9,12,113,15,ES_MULTILINE | 
+                    ES_AUTOHSCROLL
+    LTEXT           "Style",IDC_STATIC,8,46,17,8
+    COMBOBOX        IDC_COMBO_FONTSTYLE,8,54,80,51,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_FONTSIZE,91,55,38,41,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Size",IDC_STATIC,91,47,14,8
+    CONTROL         "",IDC_BUTTON_FONTCOLOR,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,103,71,25,20
+    LTEXT           "Color:",IDC_STATIC,81,81,20,8
+    GROUPBOX        "Enter Label Text",IDC_STATIC,1,1,130,34
+    PUSHBUTTON      "Cancel",IDCANCEL,93,133,40,14
+    GROUPBOX        "Label Properties",IDC_STATIC_LABELPROPERTIES,2,38,130,
+                    77
+    CONTROL         "Centered",IDC_CHECK_CENTERED,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,70,46,10
+    CONTROL         "Bold",IDC_CHECK_BOLD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,81,29,10
+    CONTROL         "Italic",IDC_CHECK_ITALIC,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,92,31,10
+    CONTROL         "Underline",IDC_CHECK_UNDERLINE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,103,46,10
+END
+
+IDD_SYMBOLPROPERTY2 DIALOG DISCARDABLE  0, 0, 135, 154
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Symbol Property"
+FONT 8, "System"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,91,134,40,14,WS_GROUP
+    LTEXT           "Note Link:",IDC_STATIC,11,32,33,8
+    LTEXT           "Embedded Link:",IDC_STATIC,10,62,51,8
+    EDITTEXT        IDC_EDIT_EMBEDDEDLINK,9,71,76,14,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_NOTELINK,8,42,75,14,ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_GROUP | NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_CAPTION,8,16,120,14,ES_AUTOHSCROLL
+    LTEXT           "Caption:",IDC_STATIC,8,7,28,8
+END
+
+IDD_UMLCLASSPROPERTY DIALOG DISCARDABLE  0, 0, 135, 154
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Uml Class Properties"
+FONT 8, "System"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,94,134,39,14
+    EDITTEXT        IDC_EDIT_CLASSTITLE,5,15,83,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SELMETHOD,6,44,83,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Rename",IDC_BUTTON_RENAME,93,44,39,14
+    LISTBOX         IDC_LIST_METHODS,5,66,84,81,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Add New",IDC_BUTTON_ADDNEW,93,67,39,14
+    PUSHBUTTON      "Delete",IDC_BUTTON_DELETE,93,84,39,14
+    PUSHBUTTON      "Delete All",IDC_BUTTON_DELETEALL,93,101,39,14
+    LTEXT           "Class Title:",IDC_STATIC,6,4,36,8
+    LTEXT           "Class Methods:",IDC_STATIC,7,34,50,8
+END
+
+IDD_UMLCOMPONENTPROPERTY DIALOG DISCARDABLE  0, 0, 135, 154
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Uml Component"
+FONT 8, "System"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,93,134,40,14
+    EDITTEXT        IDC_EDIT_SELINTERFACE,5,18,84,14,ES_AUTOHSCROLL
+    LISTBOX         IDC_LIST_INTERFACES,5,38,85,85,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Interfaces",IDC_STATIC,5,7,34,8
+    PUSHBUTTON      "Delete",IDC_BUTTON_DELETE,94,59,40,14
+    PUSHBUTTON      "Add New",IDC_ADDNEW,93,41,40,14
+    PUSHBUTTON      "Rename",IDC_BUTTON_RENAME,94,19,40,14
+    PUSHBUTTON      "Delete All",IDC_BUTTON_DELETEALL,94,78,40,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Visual Notes WCE MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Visual Notes\0"
+            VALUE "LegalCopyright", "Copyright (C) 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Visual Notes.EXE\0"
+            VALUE "ProductName", "Visual Notes Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 133
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 50
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "Bitmaps\\icon1.ico"
+IDI_ICON1               ICON    DISCARDABLE     "bitmaps\\ico00001.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "Visual Notes\nMy Diagram\nVisual Notes\n Visual Notes (*.vnf)\n.vnf\nVisual Notes Diagram\nVisual Notes Diagram"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NEW                 "New"
+    IDS_FILE                "File"
+    IDS_MHELP               "Help"
+    IDS_SAVE                "Save"
+    IDS_CUT                 "Cut"
+    IDS_COPY                "Copy"
+    IDS_PASTE               "Paste"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_EDIT                "Edit"
+    IDS_TOOL                "Tools"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_CAPS       "CAP"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FLOWCHARTSET        "Flow"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_TOOLBTN_CIRCLE       "Ellipse\nEllipse"
+    ID_TOOLBTN_DIAMOND      "Diamond"
+    ID_TOOLBTN_RECTANGLE    "Rectangle"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_EDGESET1            "Edges"
+    IDS_UMLCLASS_EMPTYTITLEBAR "No Title"
+    IDS_UMLCLASS_EMPTYMETHODLIST "..."
+    IDS_UMLSET              "UML"
+    IDS_NET1SET             "Net1"
+    IDS_NET2SET             "Net2"
+    IDS_LOGICSET            "Logic"
+    IDS_TREEDIR_UP          "Up"
+    IDS_TREEDIR_DOWN        "Down"
+    IDS_TREEDIR_LEFT        "Left"
+    IDS_TREEDIR_RIGHT       "Right"
+    IDS_ALIGNSET            "Align"
+    IDS_SHOWHIDESET         "Hide"
+    IDS_APPSIG              "VISNOTE"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Visual Notes.rc2"  // non-Microsoft eMbedded Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "wceres.rc"         // WCE-specific components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

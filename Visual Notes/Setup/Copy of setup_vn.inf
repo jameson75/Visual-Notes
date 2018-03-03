@@ -1,0 +1,98 @@
+
+
+[Version]
+Signature = "$Windows NT$"
+Provider = "Invisible Labs"
+CESignature = "$Windows CE$"
+
+[CEStrings]
+AppName = "Visual Notes"
+InstallDir = %CE11%
+
+[CEDevice]
+UnSupportedPlatforms = "Jupiter", "HPC"
+VersionMin = 3.0
+VersionMax = 3.01
+
+
+[CEDevice.ARM]
+ProcessorType = 1824
+
+[CEDevice.MIPS]
+ProcessorType = 4000
+
+[CEDevice.SH3]
+ProcessorType = 10003
+
+[CEDevice.SA]
+ProcessorType = 2577
+
+[DefaultInstall]
+CopyFiles = CopyAppDir, CopyHelpHtml, CopyHelp2bp
+AddReg = CopyReg
+CEShortcuts = CreateShortcuts
+
+[SourceDisksNames]
+1 = ,"Root Files",,C:\My Documents\Projects\Commercial\Visual Notes\Visual Notes\
+
+[SourceDisksNames.ARM]
+2 = ,"ARM Files",,ARMRel
+
+[SourceDisksNames.SH3]
+2 = ,"SH3 Files",,SH3Rel
+
+[SourceDisksNames.MIPS]
+2 = ,"MIPs Files",,mipsRel
+
+[SourceDisksNames.SA]
+2 = ,"ARM Files",,ARMRel
+
+[SourceDisksFiles]
+%AppName%.exe = 2
+vnhlp.htm = 1, res
+aligntoolbar.2bp = 	1, res\vnhlp
+edge1toolbar.2bp = 	1, res\vnhlp
+generaltoolbar.2bp = 	1, res\vnhlp
+flowtoolbar.2bp = 	1, res\vnhlp
+showhidetoolbar.2bp = 	1, res\vnhlp
+umltoolbar.2bp = 	1, res\vnhlp
+net1toolbar.2bp = 	1, res\vnhlp
+net2toolbar.2bp = 	1, res\vnhlp
+toolselection.2bp = 	1, res\vnhlp
+
+[DestinationDirs]
+CopyAppDir = 		0,%InstallDir%
+CopyHelpHtml = 		0,%CE2%
+CopyHelp2bp = 		0,%CE2%\vnhlp
+CreateShortcuts = 	0,%CE17%
+
+[CopyAppDir]
+"Visual Notes.exe",,,0x00000001
+
+[CopyHelpHtml]
+"vnhlp.htm",,,0x00000001
+
+[CopyHelp2bp]
+"aligntoolbar.2bp",,,0x00000001
+"edge1toolbar.2bp",,,0x00000001
+"generaltoolbar.2bp",,,0x00000001
+"flowtoolbar.2bp",,,0x00000001
+"showhidetoolbar.2bp",,,0x00000001
+"umltoolbar.2bp",,,0x00000001
+"net1toolbar.2bp",,,0x00000001
+"net2toolbar.2bp",,,0x00000001
+"toolselection.2bp",,,0x00000001
+
+[CreateShorcuts]
+%AppName%, 0, %AppName%
+
+[CopyReg]
+
+HKCR,.vnf,,0x00000000, vnffile
+HKCR,vnffile,,0x00000000, Diagram File
+HKCR,vnffile\DefaultIcon,0x00000000,"%InstallDir%\%AppName%.exe,-128"
+
+
+
+
+

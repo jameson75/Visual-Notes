@@ -1,0 +1,586 @@
+<html>
+<head>
+<meta http-equiv="Htm-Help" content="vnhlp.htm#Main_Contents">
+<title>Visual Notes Help</title>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<!-- PegHelp -->
+
+<p><a name="Main_Contents">
+<!-- CS topic for list view-->
+
+  <p><b>Visual Notes Help</b><p>
+  <b>Concepts</b><br>
+  <a href="vnhlp.htm#About Shapes" >About Shapes</a><br>
+  <a href="vnhlp.htm#About Edges" >About Edges</a><br>
+  <a href="vnhlp.htm#About Labels" >About Labels</a><br>
+  <a href="vnhlp.htm#About Hierarchies" >About Hierarchies</a><br>
+  <a href="vnhlp.htm#About Embedded" >About Embedded Diagrams</a><br>
+  <a href="vnhlp.htm#About Tools" >About Tools</a><br>
+  
+  <ul></ul>
+  <b>How To</b><br>
+  <a href="vnhlp.htm#Creating Shapes" >Creating shapes</a><br>
+  <a href="vnhlp.htm#Creating Edges" >Creating edges</a><br>
+  <a href="vnhlp.htm#Creating Labels" >Creating labels</a><br>
+  <a href="vnhlp.htm#Moving/Resizing" >Moving/Resizing objects</a><br>
+  <a href="vnhlp.htm#Creating Hierarchies" >Creating object hierarchies</a><br>
+  <a href="vnhlp.htm#Changing Properties" >Changing an object's properties</a><br>
+  <a href="vnhlp.htm#Aligning Objects" >Aligning objects</a><br>
+  <a href="vnhlp.htm#Hiding Objects" >Hiding objects</a><br>
+  <a href="vnhlp.htm#Deleting Objects" >Deleting objects</a><br>
+  <a href="vnhlp.htm#Embedding Diagrams" >Embedding diagrams</a><br>
+  <a href="vnhlp.htm#Navigation" >Navigating between diagrams</a><br>
+  <a href="vnhlp.htm#Deleting Diagrams" >Deleting an embedded diagram</a><br>
+  <a href="vnhlp.htm#Changing Settings" >Changing application settings</a><br>
+  
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+
+<a name="Creating Shapes"></a>
+<p><b>Creating Shapes</b><br>
+To begin creating a shape, select the <a href="vnhlp.htm#GeneralTools">create shape tool </a>. Next, 
+select the <a href="vnhlp.htm#ToolSelection">shape set</a> and  shape type tool (ie "Ellipse") 
+for the shape you wish to create. Drag pen across stylus to create your new 
+shape. By default, <a href="vnhlp.htm#About Shapes"> bitmap shapes</a> will be given a static size. 
+<ul></ul>
+<b>See Also</b><br>
+<a href="vnhlp.htm#Deleting Objects"> Deleting Objects</a></p>
+
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+<a name="Creating Edges"></a>
+<p><b>Creating Edges</b><br>
+  You must have two <i>host</i> shapes to snap to before creating an edge. Every 
+  edge has one control joint and one or more slave joints. Edge joints snap to 
+  the side of the host's bounding rectangle. The side snaped to will be the one 
+  closest to the hitpoint.
+  <ul></ul>
+ 
+  To begin creating an edge, select the <a href="vnhlp.htm#GeneralTools">create 
+  edge tool </a>. Next, select the <a href="vnhlp.htm#ToolSelection">edge set</a> and edge type tool (ie "Corner")
+  for the edge you wish to create. Select the host shape you 
+  wish to draw the edge <b>from</b>. The edge's control joint will be snaped to 
+  this shape. Select the host shape you wish to draw <b>to</b>. The edge's slave 
+  joint will be snaped to this shape. 
+  <ul></ul>
+    
+  For edge types with multiple slave joints 
+  (i.e. tree joint) select the control joint then select the host shapes you wish 
+  to draw the new edge to. To deselect the control joint, tap the canvas area. 
+  Slave joints for edge tree <a href= "vnhlp.htm#EdgeTools1"> edge type </a> must always succeede 
+  control joints in the current tree direction or edges will not be properly drawn.
+  The default tree direction is <i>down</i>. You can change the current tree direction
+  in the "App Settings" dialog box by selecting <i>Tools - Settings</i>.
+  <ul></ul>
+  
+  This release version of Visual Notes has added the ability to force a <a href ="vnhlp.htm#EdgeTools1">
+  direct edge</a> to be axis aligned ( either vertical or horizontal ). To perform this go to <i>Tools -
+  Settings</i> and select "Direct Edge Axis Aligned".
+  <ul></ul>
+<b>See Also</b><br>
+<a href="vnhlp.htm#Deleting Objects"> Deleting Objects</a><br>
+<a href="vnhlp.htm#About Edges">About Edges</a><br>
+<a href="vnhlp.htm#About Shapes">About Shapes</a><br>
+</p>
+  
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+
+<a name="Creating Labels"></a>
+<p><b>Creating Labels</b><br>
+  To begin creating a label, select the <a href="vnhlp.htm#GeneralTools">create label tool </a>. Next 
+  tap the stylus to create the label. The hitpoint (the point on the stylus you 
+  tapped) will be the top, right corner of the label's bounding rectangle. If a label
+  is placed on top of a symbol, it automatically becomes that symbol's child.
+  <ul></ul>
+  <b>See Also</b><br><a href="vnhlp.htm#Deleting Objects"> Deleting Objects</a>
+  </p>
+  
+
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+  
+  <a name="Moving/Resizing"></a>
+  <p> <b>Moving/Resizing an object</b><br>
+  To resize an object, select the <a href="vnhlp.htm#GeneralTools">resize tool </a>. A resizing rectangle 
+  will appear. Select the target object. Drag the handles to resize the object. 
+  You may also drag the object itself to move the it arcoss the canvas. To deselect 
+  the object, tap the canvas area.
+  <ul></ul>
+    
+  Offsetting (moving) an object will offset it's 
+  snaped joints and children by the same amount. Resizing only effects snaped 
+  joints. The resizing tool has one limitation - you may only move one object at 
+  a time (which will result in moving any children or snaped joints). 
+  <ul></ul>
+  
+  To move multiple objects, select the 
+  <a href="vnhlp.htm#GeneralTools">pick tool</a>. Select one or more objects you wish to move. You
+  can do this by tapping each object you wish to select or dragging the pen to form a selection 
+  rectangle (note, unlike desktop mouse behavior, you can make as many rectangular selections as
+  you please). Next, Tap and hold any of the selected objects and the multi-move-rectangle will appear. 
+  Without lifting the pen from the stylus, drag this rect to move all selected 
+  objects. </p>
+  <ul></ul>
+  
+  <b>See Also</b><br>
+  <a href="vnhlp.htm#About Hierarchies">About Hierarchies</a><br>
+  <a href="vnhlp.htm#About Edges">About Edges</a><br>
+
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+ <a name="Creating Hierarchies"></a>
+<p><b>Creating Object Hierarchies</b><br>
+To begin creating an object hierarchy, select the <a href="vnhlp.htm#GeneralTools">create hierarchy tool</a>.
+Next, select the child shape for the relationship then select the parent for the relationship.
+If you want a child to have no parent, select the canvas as the new parent. If you've selected
+a child accidentally, select it again to preserve it's current relationship. By default, an error
+message is displayed if the user attempts to create a circular relationship. Edges/Joints do not 
+participate in hierarchy relationships.
+</p>
+
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+
+<a name="Changing Properties"></a>
+<p><b>Changing Object Properties</b><br>
+  To change an object's property, select the <a href="vnhlp.htm#GeneralTools"> pick tool</a> then 
+  pick one and only <b>one</b> object. Select the <a href="vnhlp.htm#GeneralTools">properties tool</a> to display the 
+  object's property dialog box. This dialog box will vary according to the target 
+  object.</p>
+  <b>See Also</b><br>
+  <a href="vnhlp.htm#Symbol Properties">Symbol Properties</a>
+  
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+ 
+ <a name="Aligning Objects"></a>
+<p><b>Aligning Objects</b><br>
+  To align one object with another you first select the <a href="vnhlp.htm#GeneralTools"> pick tool</a>. 
+  Select the <a href="vnhlp.htm#ToolSelection"> align set </a>. Select one or more objects to be aligned, then select the object 
+  you wish to align with. Select the desired <a href ="vnhlp.htm#AlignTools"> align tool</a> and the 
+  objects will automatically align themselves. </p>
+  
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+
+<a name="Hiding Objects"></a>
+<p><b>Hiding Objects</b><br>
+To hide an object, select the <a href="vnhlp.htm#GeneralTools">pick tool </a>. Select the <a href="vnhlp.htm#ToolSelection"> 
+show/hide set</a>. Pick the objects you wish to hide then select 
+the <a href="vnhlp.htm#ShowHideTools">hide slected tool</a>. The 
+selected objects will immediately hide themselves. To show all objects which are currently
+hidden, simply select the <a href="vnhlp.htm#ShowHideTools">show-all tool</a> at any time. <i>ShowAll/Hiding can not be 
+undone/redone.</i>
+</p>
+
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+
+<a name="Embedding Diagrams"></a>
+<p><b>Embedding Diagrams</b><br>
+  There are two ways to embed diagrams into an object. 
+  <ul></ul>
+  
+  The first way is to create a new diagram from scratch. Deselect all buttons in the <a href="vnhlp.htm#GeneralTools">general tool bar</a>. Tap 
+  and hold the target object and a popup menu will appear. Select "Create Embedded" 
+  from the menu. A new, blank canvas will appear in the view. 
+  <ul></ul>
+  
+   The second way is to embed a previously created diagram into an object. Again, 
+  deselect all buttons in the general tool bar. Tap and hold the target object and from the popup menu, 
+  select "Insert Embedded". The "Diagram View" dialog box will immediately appear. 
+  Use this dialog box to pick the diagram you wish to insert.  When you close this 
+  dialog box you will return to the diagram you previously left. Note, you cannot 
+  embed the current diagram into a symbol.
+  <ul></ul>
+  
+  Tap and hold the object you just inserted 
+  a diagram into (with general tools still deselected)  and select "View Embedded" 
+  from popup menu to visit the newly inserted diagram. 
+</p>
+<b>See Also</b><br>
+<a href="vnhlp.htm#Navigation">Navigating between diagrams</a>
+
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+
+<a name="Navigation"></a>
+<p><b>Navigating between diagrams</b><br>
+Deselect all <a href="vnhlp.htm#GeneralTools">general tool bar </a>  buttons. Tap and hold canvas area and a
+popup menu will appear. Select "Foward" or "Back" to navigate. To directly visit a 
+diagram, select <i> Tools - Diagram</i> from the menubar. The "Diagrams View" dialog will appear. 
+Use this dialog to select a diagram and <i>visit</i> it.</p>
+
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+
+<a name="Deleting Objects"></a>
+<p><b>Deleting Objects</b><br>
+To delete an object, first select the <a href="vnhlp.htm#GeneralTools">pick tool</a>. Select the object(s) you wish to 
+have deleted then select the <a>delete tool</a>. By default <b>all</b> children are
+deleted along with thier parent. To change this, select <i>Tools - Settings</i>. Deselect "Remove
+Children Upon Deletion" and click "OK". 
+</p>
+
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+
+<a name="Deleting Diagrams"></a>
+<p><b>Deleting an Embedded Diagram</b><br>
+There are two ways to delete a diagram. 
+<ul></ul>
+
+To begin removing a diagram the first way, deselect all tools
+in the general tool bar. Tap and hold the object which contains the embedded diagram. Select "Delete 
+Embedded" from the popup menu. Next, you will be asked to confirm your deletion. Tap "yes" to proceede 
+with the deletion. If the diagram you are deleting will leave other diagrams <a>orphaned</a>, you'll be asked
+to confirm the deletion of these orphans. Tap "yes" to delete the orphans, tap "no" to leave the orphans but delete the requested
+diagram, or tap "cancel" to abort the entire deletion process. Note, deletion of orphans is a cascading process, 
+meaning, if deleting an orphan causes another diagram to be orphaned the latter diagrams are also deleted. 
+<ul></ul>
+
+The second way to delete a diagram is via <i>Tools - Diagram</i>. Use this dialog box to select the diagram.
+Once selected you may tap "delete" to remove it. You must exit by tapping "OK" for the deletion to be carried 
+out. Note, this method does not ask for confirmation of deleting orphaned diagrams. By default orphans will 
+automatically be preserved. To change this option, go to <i>Tools - Settings</i> and select "Auto delete 
+embedded orphans."
+</p>
+<b>See Also</b><br>
+<a href="vnhlp.htm#About Embedded">About Embedded Diagrams</a><br>
+
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+<a name="Changing Settings"></a>
+<p><b>Application Settings</b><br>
+To adjust the application settings, select <i>Tools - Settings</i>. From here you can
+perform the following:
+<ul></ul>
+<ul>
+	<li>Automatically remove children upon deletion.
+	<li>Allow newly created bitmaps to be streched/resized by default.
+	<li>Automatically break an hierarchy chain on an attempt to create a circular parent - child
+	relationship.
+	<li>Automatically delete diagrams which become orphaned during deletion.
+	<li>Change the current canvas size.
+	<li>Change the current tree direction.
+</ul>
+
+The user also has the option to save the application settings ("Save Settings"). This will
+cause the application to retain the current settings the next time it is started.
+
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+<a name="Symbol Properties"></a>
+<p><b>Symbol Properties</b><br>
+The following describes the various properties for symbols. Most properties are changable,
+others are read-only*. Certain symbols have properties only specific to that object.
+These properties can be accessed by tapping the "Extd" button. If there are no 
+object-specific properties, this button will be disabled.
+</p><br>
+
+<b>General Shape Properties</b>
+<ul>
+	<li>Pixel Hieght*
+	<li>Pixel Width*
+	<li>Edge Color 
+	<li>Caption Color
+	<li>Background Color
+	<li>Secondary Background Color (ie Uml Class)
+	<li>Edge Type - solid /dashed.
+	<ul></ul>
+	<b>MORE</b>
+	<ul>
+		<li>Caption Text
+		<li>Embedded Diagram*
+		<li>Attached Note <i>(not implemented this version)</i>.
+	</ul>
+</ul><br>
+
+<b>General Edge Properties</b>
+<ul>
+	<li>Master Joint Symbol
+	<li>Slave Joint Symbol
+	<li>Joint's Color
+	<li>Edge's Color
+	<li>Edges Width
+	<li>Edge Type - solid/dashed.
+</ul><br>
+
+<b>General Label Properties</b>
+<ul>
+	<li>Label's Caption.
+	<li>Label's Font Style. 
+	<li>Label's Font Size.
+	<li>Label Format - [ Cenetered, Bold, Italic, Underline ].
+	<li>Label's Font Color
+</ul><br>
+
+<b>Specific Uml Class Properties</b>
+<ul>
+	<li>Class Name/Title
+	<li>List of Class Methods
+	<li><i>(Shape's caption is disabled)</i>
+</ul><br>
+
+<b>Specific Component Properties</b>
+<ul>
+	<li>Component Name/Title 
+	<li>List of Interface Methods
+	<li><i>(Shape's caption is disabled)</i>
+</ul><br>
+ 
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+
+<a name="GeneralTools"></a>
+<b>General Tool Bar</b><br>
+<img src="vnhlp/generaltoolbar.2bp"><br>
+<ol>
+ <li>Create Shape<br>
+ <li>Create Edge<br>
+ <li>Create Label<br>
+ <li>Resize/Move symbol<br>
+ <li>Pick symbol<br>
+ <li>Create Hierarchy<br>
+ <li>Delete Symbol<br>
+ <li>Undo Change To Symbol(s)<br>
+ <li>Redo Change To Symbol(s)<br>
+ <li>Display Symbol Properties<br>
+</ol>
+ 
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+
+<a name="FlowTools"></a>
+<b>Flow Charting Tool Bar</b><br>
+<img src="vnhlp/flowtoolbar.2bp"><br>
+<ol>
+ <li>Ellipse <br>
+ <li>Rectangle <br>
+ <li>Diamond <br>
+ <li>Shear <br>
+ <li>Triangle/Generalization <br>
+ <li>Outer Tag<br>
+ <li>Inner Tag<br>
+</ol>
+ 
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+
+<a name="UmlTools"></a>
+<b>Uml Tool Bar</b><br>
+<img src="vnhlp/umltoolbar.2bp"><br>
+<ol>
+ <li>Actor <br>
+ <li>Note <br>
+ <li>Component <br>
+ <li>Package <br>
+ <li>Class<br>
+ <li>Case <br>
+ <li>Deployment <br>
+ <li>State <br>
+ <li>Capsule <br>
+</ol>
+  
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+
+<a name="NetTools1"></a>
+<b>Network Tool Bar 1</b><br>
+<img src="vnhlp/net1toolbar.2bp"><br>
+<ol>
+	<li>Client/Terminal<BR>
+	<li>Server<BR>
+	<li>Database<BR>
+	<li>Network Cloud<BR>
+	<li>Printer<BR>
+	<li>Hub<BR>
+	<li>Mainframe<BR>
+	<li>Token Ring<BR>
+</ol>
+ 
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+
+<a name="NetTools2"></a>
+<b>Network Tool Bar 2</b><br>
+<img src="vnhlp/net2toolbar.2bp"><br>
+<ol>
+	<li>Satellite<br>
+	<li>Dish<br>
+	<li>Cellular Phone<br>
+	<li>PDA<br>
+	<li>Note Pad<br>
+	<li>Camera<br>
+	<li>Fax<br>
+	<li>Modem<br>
+</ol>
+ 
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+<a name="EdgeTools1"></a>
+<b>Edge Tool Bar 1</b><br>
+<img src="vnhlp/edge1toolbar.2bp"><br>
+<ol>
+	<li>Direct<br>
+	<li>Corner<br>
+	<li>Tree<br>
+</ol>
+
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+
+<a name="AlignTools"></a>
+<b>Alignment Tool Bar</b><br>
+<img src="vnhlp/aligntoolbar.2bp"><br>
+<ol>
+	<li>Align Top Edges<BR>
+	<li>Align Right Edges<BR>
+	<li>Align Left Edges<BR>
+	<li>Align Bottom Edges<BR>
+	<li>Size To <BR>
+	<li>Center To<BR>
+</ol>
+  
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+
+<a name="ShowHideTools"></a>
+<b>Show/Hide Tool Bar</b><br>
+<img src="vnhlp/showhidetoolbar.2bp"><br>
+<ol>
+	<li>Show All Hidden <BR>
+	<li>Hide Selected <BR>
+</ol>
+ 
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+
+<a name="ToolSelection"></a>
+<b>Tool Selection</b><br>
+<img src="vnhlp/toolselection.2bp">
+<p>
+The tools available for selection depend upon the <i>mode</i> the 
+application is in.</p>
+<b>Create Shape Mode</b>
+<ul>
+	<li>Flow Charting Set
+	<li>Uml Diagraming Set
+	<li>Network Diagraming Set 1
+	<li>Network Diagramming Set 2
+</ul>
+<b>Create Edge Mode</b>
+<ul>
+	<li>Edge Set 1
+</ul>
+<b>Pick Mode</b>
+<ul>
+	<li>Alignment Set
+	<li>Show/Hide Set
+</ul>
+ 
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+
+<a name="About Shapes"></a>
+<p>
+<b>About Shapes</b><br>
+With just a simple click and drag, Visual Notes allows you 
+to create a variety of shapes to fit your basic modeling needs - 
+Flow Charts, Entity Relationship Diagrams, Network Diagrams, and yes,
+UML Diagrams.
+<ul></ul>
+
+Shapes generally fall into two categories - <i>Pen Drawn</i> and 
+<i>Bitmap shapes</i>. Most Pen Shapes can have a centered caption. Pen 
+Shapes have 2 background colors (most only use one), an edge color and
+a caption color which can each be set by the user. By default, Pen shapes are resizable.
+<ul></ul>
+The <i>look</i> of a bitmap shape cannot be changed nor does can it have a caption. 
+However, a particular bitmap can be chosen 
+to represent a symbol from a given set of bitmaps for the symbol. By default, bitmaps
+are given a static size of 32x32 pixels.
+<ul></ul>
+
+All shapes are surrounded a logical (invisible) bounding rectangle. This rectangle is seen when
+either moving/resizing a shape or simply picking a shape. 
+</p>
+  
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+
+<a name="About Edges"></a>
+<p>
+<b>About Edges</b><br>
+Every edge may be associated with two or more shapes (i.e. shapes must be created
+before their edges). Each joint (endpoint) of an edge is snapped to the side of 
+an associated shape upon creation. This means the user can move a shape without having to redraw and edge.
+Each joint can be a particular symbol (i.e. "arrow","many", "dot"), or it can 
+be nothing ("none"). The actual edge and its joints can be asigned a color. Only the edge itself
+can have a variable size, joints, however, are given static size.
+<ul></ul>
+
+Although joints are snapped upon creation, they can be moved around. 
+They will, however, always behave as snapped joints. Therefore,
+moving a symbol will always offset its associated edges.
+</p>
+
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+
+<a name="About Labels"></a>
+<p>
+<b>About Labels</b><br>
+Labels are formatable text bounded by a logical, resizable rectangle. The text of
+a label will readjust itself to always fit inside a its bounding rectangle. The
+basic formatting features available for labels are centering, underlining, bold, and
+italic. The user can also change the font style and font color. The number of available
+font styles is dependent on the particular Pocket PC device.
+</p>
+
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+
+<a name="About Hierarchies"></a>
+<p>
+<b>About Hierarchies</b><br>
+Shapes and Labels can have <i>parent - child</i> relationships. A child symbol becomes apart of 
+its parent's canvas space. This means that moving a parent will across the canvas move all of its
+decendants. A child symbol is always infront of its parent's Z-Order. This means that if a child symbol
+is placed on top of its parent, selecting the parent will not hide the child. By default, deleting a parent
+will also remove all of its descendants from the canvas. However, the user has the option to change this
+behavior.
+<ul></ul>
+Circular parent child relationships are illegal. Meaning, a symbol's descendant (child, grandchild, etc.) cannot
+also become its ancestor (parent, grandparent, etc.) and vice versa.
+</p>
+
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+
+<a name="About Embedded"></a>
+<p>
+<b>About Embedded Diagrams</b><br>
+Screen space is a high priority issue when designing applications for the Pocket PC. Although
+the user has the ability to change the canvas size, some diagrams may require a bit more
+flexibility. This first release version of visual notes includes the ability to embed diagrams
+within a diagram. An embedded diagram is associated with one or more symbols. The user can 
+<i>navigate</i> among diagrams with a simple tap and hold on the embedding symbol(s) or 
+can use a dialog box to directly <i>visit</i> any diagram within the project. 
+<ul></ul>
+
+The initial diagram displayed when a new project is created is called the "_root" diagram. Unlike,
+embedded diagrams, its name cannot be changed and it cannot be deleted from the project.
+
+A diagram becomes orphaned in the event that the <b>last</b> it can no longer be visited from the "_root" 
+diagram. This happens when the user deletes all the diagram's referencing symbols that lead <i>back</i> 
+to the "_root". The user will have the option to delete or preserve these orphans when deleting an embedding symbol or the
+diagram containing the embedding symbol. Note, the "_root" <b>never</b> gets deleted, even if it becomes orphaned.
+</p>
+
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+
+<a name="About Tools"></a>
+<b>Available Tools</b><br><br>
+<a href="vnhlp.htm#GeneralTools">General Tools</a><br>
+<a href="vnhlp.htm#FlowTools">Flow Charting Tools</a><br>
+<a href="vnhlp.htm#UmlTools">Uml Diagraming Tools</a><BR>
+<a href="vnhlp.htm#NetTools1">Network Diagraming Tools 1</a><BR>
+<a href="vnhlp.htm#NetTools2">Network Diagraming Tools 2</a><BR>
+<a href="vnhlp.htm#EdgeTools1">Edge Creation Tools</a><BR>
+<a href="vnhlp.htm#AlignTools">Alignment Tools</a><BR>
+<a href="vnhlp.htm#ShowHideTools">Show/Hide Tools</a><BR>
+<a href="vnhlp.htm#ToolSelection">Tool Selection</a><BR>
+
+<!-- PegHelp --><hr><!-- ***Topic Break*** -->
+ 
+</body> 
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

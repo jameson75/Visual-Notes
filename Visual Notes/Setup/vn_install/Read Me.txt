@@ -1,0 +1,55 @@
+
+
+Thank you for choosing Visual Notes 1.1
+
+So What's NEW?
+--------------
+As requested, an export feature has been added to version 1.0.
+You can now export the currently viewed diagram as a Windows Bitmap file (.bmp).
+The exported file format will be in 24 bit color for greatest compatiblity.
+
+New Sample diagrams are now included with Visual Notes 1.1.
+
+Installed files.
+----------------
+File/Folder Name	Directory			Description
+----------------	---------			-----------
+visual notes.exe	/windows/startmenu/programs	application file.
+visual notes.lnk	/windows/startmenu		shortcut to application file.	
+vnhlp.htm		/windows			help file
+vnhlp [dir]		/windows			folder containing help files.
+xxx.2bp			/windows/vnhlp			bitmaps used by the help files.
+
+
+How to install.
+--------------
+To install visual notes you must have Active Sync 3.1 or higher. 
+Run the "setup.exe" file included in your installation files and "Platform Manager"
+will start up. You will be prompted to install "Invisible Labs Visual Notes". 
+Select OK to start the installation. The files above will be installed in their 
+corresponding directories. 
+
+Accessing help files.
+---------------------
+There are two ways to access visual notes help files.
+
+1. Startup Visual Notes. Open the START menu from the task bar. Select HELP
+2. From the TODAY Screen, Open the START menu form the task bar. Select HELP. 
+   Select the "Visual NOtes" link.
+3. To view help on your desktop, open "vnhlp.htm" from the setup folder.
+
+TUTORIALS
+---------
+Tutorials are available both online and in the setup folder.
+Sample diagrams are also available.
+
+
+WEBSITE
+-------
+http://www.invisiblelabs.com
+
+
+Eugene J. Adams
+Invisible Labs
+
+
